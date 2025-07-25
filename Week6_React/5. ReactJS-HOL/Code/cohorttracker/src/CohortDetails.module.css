@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+dt {
+  font-weight: 500;
+}
